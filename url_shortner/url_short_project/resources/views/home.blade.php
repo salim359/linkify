@@ -14,18 +14,17 @@
 
             <!-- Image -->
             <div class="mt-10 md:mt-0 md:ml-12">
-                <!-- <img src="{{ Vite::asset('resources/images/logo_w.png') }}" alt="Illustration" class="w-full max-w-md rounded-lg "> -->
+           
                 <video autoplay muted loop playsinline class="w-full max-w-md rounded-lg shadow-lg">
                     <source src="{{ Vite::asset('resources/videos/intro.mp4') }}" type="video/mp4">Your browser does not support the video tag
                 </video>
             </div>
         </div>
-
         <x-slot:section>
             <div class="bg-black min-h-screen flex flex-col md:flex-row items-center justify-around px-6 py-12 ">
                 <div class="py-10 px-10">
                     <h1 class="text-3xl font-bold text-white mb-6">How it works?</h1>
-                    <p class="text-lg text-white">A simple 4-step process to shorten and track your URLs</p>
+                    <p class="text-lg text-white">A simple 3-step process to shorten and track your URLs</p>
                     <!-- <img src="{{ Vite::asset('resources/images/logo_w.png') }}" alt="Illustration" class="w-full max-w-md rounded-lg "> -->
                 </div>
 
@@ -61,17 +60,6 @@
                         <div>
                             <h3 class="text-xl font-semibold text-white">Step 3: Share your new short link</h3>
                             <p class="text-white">Distribute your shortened URL across social media, emails, or anywhere else.</p>
-                        </div>
-                    </li>
-                    <li class="flex items-start">
-                        <div class="flex-shrink-0 bg-indigo-100 rounded-full p-3 mr-4">
-                            <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 class="text-xl font-semibold text-white">Step 4: Track clicks and performance</h3>
-                            <p class="text-white">Monitor how many clicks your link gets and analyze its performance.</p>
                         </div>
                     </li>
                 </ul>

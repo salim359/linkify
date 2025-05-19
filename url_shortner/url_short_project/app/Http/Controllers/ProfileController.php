@@ -36,4 +36,11 @@ class ProfileController extends Controller
         return redirect('/profile');
     
     }
+    
+    public function destroy(){
+        // authorixze
+        //delete all the urls created
+        //delete all the messages
+        
+    }
 }

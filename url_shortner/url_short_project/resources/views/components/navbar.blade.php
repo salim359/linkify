@@ -15,7 +15,6 @@
         
                 @auth
                     <a href="/url/create" class="font-semibold text-white hover:text-gray-400 transition duration-200">HOME</a>
-                     <a href="/analytics" class=" font-bold font-semibold text-white hover:text-black-800 transition duration-200">ANALYTICS</a>
                     
                 @endauth
         

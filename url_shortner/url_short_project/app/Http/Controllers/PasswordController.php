@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Contracts\Session\Session;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules\Password;
 
 class PasswordController extends Controller
@@ -25,13 +26,13 @@ class PasswordController extends Controller
     
         User::where('id',$user->id)
         ->update([
-            'password'=>$password['password']
+            'password'=> Hash::make( $password['password']),
         ]);
 
-        //redirect to the job pagae
-        request()->session()->flash('sucess');
+         // Flash success message
+        session()->flash('success', 'Password updated successfully.');
         return redirect('/profile');
-    }
+         }
 
   
 }

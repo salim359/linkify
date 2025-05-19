@@ -11,7 +11,7 @@
                 <a href="/about" class="hover:text-indigo-400 transition">About</a>
                 <a href="/services" class="hover:text-indigo-400 transition">Services</a>
                 <a href="/contact" class="hover:text-indigo-400 transition">Contact</a>
-                <a href="/privacy" class="hover:text-indigo-400 transition">Privacy</a>
+               
             </div>
 
             <!-- Social Icons -->

@@ -51,7 +51,7 @@
     </form>
     <form class="bg-black  shadow-2xl rounded-2xl p-12 w-full max-w-4xl mx-10 my-12 transition-all duration-300 hover:shadow-3xl" method="POST" action="/profile/delete" >
         @csrf
-        @method('DELETE')
+        @method('delete')
         <x-section-heading>Deactivate Acoount</x-section-heading>
         <x-form.form-field>
             <x-form.form-label  class="mt-10">Note that after deleting account you will lose all your data, and it is irrevisiable</x-form.form-label>

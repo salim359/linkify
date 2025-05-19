@@ -18,8 +18,9 @@ Route::post('/contact',[ContactController::class,'store']);
 
 Route::get('/profile',[ProfileController::class,'index']);
 Route::patch('/profile',[ProfileController::class,'update']);
+Route::delete('/profile/delete',[ProfileController::class,'destroy']);
 Route::patch('/resetpassword',[PasswordController::class,'update']);
-Route::view('/privacy','privacy');
+
 
 Route::get('/urls',[UrlController::class,'index']);
 Route::get('/url/create',[UrlController::class,'create']);
