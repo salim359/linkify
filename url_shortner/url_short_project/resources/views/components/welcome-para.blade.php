@@ -1,0 +1,1 @@
+<p class="mt-3 text-base md:text-lg text-center font-light">{{ $slot }}</p>
